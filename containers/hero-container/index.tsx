@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import styles from './style.module.scss'
 import React, { FC } from 'react'
-import herobg from '@/assets/herobg.png';
+import herobg from '@/assets/herobg.webp';
 import { Logo } from '@/services/Icons/Logo';
 import PrimaryButton from '@/components/Buttons/PrimaryButton';
 interface HeroSectionProps {

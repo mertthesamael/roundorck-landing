@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import styles from './style.module.scss'
 import React, { FC } from 'react'
-import aboutbg from "@/assets/aboutbg.png"
+import aboutbg from "@/assets/aboutbg.webp"
 import { Grass } from '@/services/Icons/Grass';
 import { AboutTexts } from './constants';
 import PrimaryButton from '@/components/Buttons/PrimaryButton';
