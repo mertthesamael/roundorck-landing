@@ -1,0 +1,59 @@
+.contactSection{
+    height: max-content;
+    background-color: #FCFCFC;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    &__title{
+
+        & h1{
+            color: var(--gray-3, #828282);
+            text-align: center;
+            font-size: 6.4rem;
+            font-style: normal;
+            font-weight: 800;
+        }
+    }
+
+    &__info{
+        display: flex;
+        gap:10rem;
+        justify-content: center;
+        &__form{
+            width: 37.4rem;
+        }
+        &__details{
+            display: flex;
+            flex-direction: column;
+            gap: 3.5rem;
+            height: 100%;
+            &__item{
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+                & p{
+                    color: var(--gray-1, #333);
+                    font-size: 1.4rem;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:750px) {
+    .contactSection{
+
+        &__info{
+            flex-direction: column;
+            width: 100%;
+            align-items: flex-start;
+            &__form{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}

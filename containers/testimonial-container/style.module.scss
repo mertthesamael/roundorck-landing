@@ -1,0 +1,42 @@
+.testimonialsSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7rem 0;
+    gap: 7rem;
+    height: max-content;
+    min-height: max-content;
+
+    &__title{
+        
+        & h1{
+            color: var(--gray-3, #828282);
+            text-align: center;
+            font-size: 6.4rem;
+            font-weight: 800;
+        }
+    }
+
+    &__testimonials{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        row-gap: 4.5rem;
+        column-gap: 4.5rem;
+    min-height: max-content;
+
+    }
+}
+
+@media (max-width:1200px) {
+    .testimonialsSection{
+
+       &__testimonials{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        
+       }
+    }
+}

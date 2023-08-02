@@ -1,0 +1,14 @@
+.primaryInput{
+    border-radius: 61px;
+    border: 1px solid #9FDEA9;
+    outline: none;
+    background-color: white;
+    font-family: inherit;
+    padding: .5rem 1rem;
+    width: 100%;
+    height: 4rem;
+    color: #828282;
+    &::placeholder{
+        color: rgba(128, 128, 128, 0.452);
+    }
+}

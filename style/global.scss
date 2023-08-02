@@ -1,0 +1,47 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: white;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: none;
+    scrollbar-color: #009933 #ffffff00;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+    background-color: transparent;
+  }
+
+  *::-webkit-scrollbar-track {
+    background-color: transparent;
+
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #009933;
+    border-radius: 0px;
+    
+  }
+
+@media screen and (max-width:1199px){
+    html{
+        font-size: 45%!important;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width:1599px){
+    html{
+        font-size: 50%!important;
+    }
+}
+
+@media screen and (min-width: 2200px) and (max-width:5000px){
+    html{
+    }
+}

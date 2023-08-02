@@ -1,0 +1,18 @@
+.primaryButton{
+    border-radius: 35px;
+
+    background: radial-gradient(50.00% 50.00% at 50.00% 50.00%, #FFF 0%, #F9F9F9 100%);
+
+    /* 2 */
+    
+    padding: 2rem 5.3rem;
+    color: #48924F;
+    font-size: 1.8rem;
+    font-weight: 700;
+    transition: .5s ease;
+    width: max-content;
+    &:hover{
+        box-shadow: 0px 10px 50px 0px rgba(16, 51, 30, 0.50);
+
+    }
+}

@@ -1,0 +1,15 @@
+.secondaryButton{
+    background-color: white;
+    border-radius: 61px;
+    border: 2px solid #4DB96B;
+    padding: 1rem 5.3rem;
+    width: max-content;
+    font-family: inherit;
+    color: #4DB96B;
+    font-weight: bold;
+    transition: .5s ease;
+    &:hover{
+        background-color: #4DB96B;
+        color: white;
+    }
+}
