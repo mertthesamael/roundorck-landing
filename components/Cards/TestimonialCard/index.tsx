@@ -25,7 +25,7 @@ const TestimonialCard: FC<TestimonialCardProps> = ({ id,name,img,comment,rating 
                 <p>{comment}</p>
             </div>
             <div className={styles.testimonialCard__body__rating}>
-                {Array.from({length:rating}, () => <RatingStar /> )}
+                {Array.from({length:rating}, (v,_i) => <RatingStar key={_i} /> )}
             </div>
         </div>
     </div>
