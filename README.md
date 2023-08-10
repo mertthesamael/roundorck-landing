@@ -1,3 +1,7 @@
+![image](https://github.com/mertthesamael/roundorck-landing/assets/79616834/bb34dec5-c9d9-4056-a8e3-10afbc8cf93a)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
